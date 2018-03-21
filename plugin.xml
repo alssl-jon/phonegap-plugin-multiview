@@ -26,7 +26,8 @@
 
         <config-file target="AndroidManifest.xml" parent="application">
             <activity android:name="phonegap.pgmultiview.PGMultiViewActivity"
-                      android:label="PGMultiViewActivity" >
+                      android:label="PGMultiViewActivity" 
+                      android:launchMode="singleTop" >
             </activity>
         </config-file>
 
