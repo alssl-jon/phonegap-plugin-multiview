@@ -27,7 +27,7 @@
         <config-file target="AndroidManifest.xml" parent="application">
             <activity android:name="phonegap.pgmultiview.PGMultiViewActivity"
                       android:label="PGMultiViewActivity" 
-                      android:launchMode="singleTop" >
+                      android:launchMode="singleTop"  android:theme="@android:style/Theme.Translucent.NoTitleBar">
             </activity>
         </config-file>
 
